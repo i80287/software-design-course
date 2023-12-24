@@ -1,0 +1,57 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "e:\\projects\\kotlin\\software-design-course\\ihw1app:buildapp",
+			"script": "app:build",
+			"description": "Assembles and tests this project.",
+			"group": "build",
+			"project": "app",
+			"buildFile": "E:\\projects\\kotlin\\software-design-course\\ihw1\\app\\build.gradle.kts",
+			"rootProject": "CinemaApp",
+			"projectFolder": "e:\\projects\\kotlin\\software-design-course\\ihw1",
+			"workspaceFolder": "e:\\projects\\kotlin\\software-design-course\\ihw1",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:build"
+		},
+		{
+			"type": "gradle",
+			"id": "e:\\projects\\kotlin\\software-design-course\\ihw1app:runapp",
+			"script": "app:run",
+			"description": "Runs this project as a JVM application",
+			"group": "application",
+			"project": "app",
+			"buildFile": "E:\\projects\\kotlin\\software-design-course\\ihw1\\app\\build.gradle.kts",
+			"rootProject": "CinemaApp",
+			"projectFolder": "e:\\projects\\kotlin\\software-design-course\\ihw1",
+			"workspaceFolder": "e:\\projects\\kotlin\\software-design-course\\ihw1",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:run"
+		},
+		// {
+        //     "label": "build",
+        //     "type": "shell",
+        //     "command": "./gradlew build -x test",
+        //     "problemMatcher": [],
+        //     "group": {
+        //         "kind": "build",
+        //         "isDefault": true
+        //     }
+        // },
+        // {
+        //     "label": "run",
+        //     "type": "shell",
+        //     "command": "./gradlew run",
+        //     "problemMatcher": []
+        // }
+	]
+}

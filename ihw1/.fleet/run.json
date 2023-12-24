@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "gradle",
+            "name": "Gradle quite run",
+            "tasks": [
+                "run",
+                "-q",
+                "--console=plain"
+            ],
+            // "args": ["--args=1 2 3"]
+        },
+        {
+            "type": "gradle",
+            "name": "Gradle verbose run",
+            "tasks": [
+                "build",
+                "run",
+            ],
+        },
+        {
+            "type": "gradle",
+            "name": "Gradle build",
+            "tasks": [
+                "build",
+            ],
+        }
+    ]
+}
