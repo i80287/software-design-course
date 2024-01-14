@@ -1,0 +1,38 @@
+[
+    {
+        "severity": "INFO",
+        "src": "info source",
+        "timestamp": "2024-01-14T14:22:43.723181100Z",
+        "description": "info description"
+    },
+    {
+        "severity": "WARNING",
+        "src": "warning source",
+        "timestamp": "2024-01-14T14:22:43.957172900Z",
+        "description": "warning description"
+    },
+    {
+        "severity": "ERROR",
+        "src": "error source",
+        "timestamp": "2024-01-14T14:22:43.971171500Z",
+        "description": "error description"
+    },
+    {
+        "severity": "INFO",
+        "src": "info source",
+        "timestamp": "2024-01-14T14:23:35.433299700Z",
+        "description": "info description"
+    },
+    {
+        "severity": "WARNING",
+        "src": "warning source",
+        "timestamp": "2024-01-14T14:23:35.631294300Z",
+        "description": "warning description"
+    },
+    {
+        "severity": "ERROR",
+        "src": "error source",
+        "timestamp": "2024-01-14T14:23:35.636301500Z",
+        "description": "error description"
+    }
+]
